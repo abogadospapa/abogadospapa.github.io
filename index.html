@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abogado Profesional en Colombia</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="header">
+        <div class="container">
+            <h1>Abogado Profesional en Colombia</h1>
+            <p>Comprometido con la justicia y el bienestar de nuestros clientes</p>
+        </div>
+    </header>
+    <!-- Sección de servicios -->
+    <section class="services">
+        <div class="container">
+            <h2>Servicios</h2>
+            <div class="service-item">
+                <h3>Defensa Penal</h3>
+                <p>Asesoría y representación en casos de derecho penal.</p>
+            </div>
+            <div class="service-item">
+                <h3>Derecho Civil</h3>
+                <p>Resolución de conflictos civiles y comerciales.</p>
+            </div>
+            <div class="service-item">
+                <h3>Asesoría Legal</h3>
+                <p>Consultas para resolver tus dudas legales con un experto.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                <textarea name="message" placeholder="Tu mensaje" required></textarea>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 style="margin-bottom: 25px;">Si Quieres Agendar Tu Cita O Solo Saludarme, Contactame:</h2>
+        <a href="https://wa.me/+56933705038" class="WaBtn" id="contact">WhatsApp</a>
+        <a href="tel:+573123747146" class="LLBtn">Llámame</a>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Abogado Profesional en Colombia. Todos los derechos reservados.</p>
+            <p>Create By <a target="_blank" href="https://codematehub.com/">Abel Nicolás J.O.</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("TU_USER_ID");
+        })();
+    </script>
+
+
+</body>
+</html>
